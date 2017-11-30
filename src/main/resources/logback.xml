@@ -4,6 +4,7 @@
 	<appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
 		<encoder>
 			<pattern>[%level] [%date{HH:mm:ss.SSS}] [%thread] [%mdc] %logger.%method:%line --> %message%n</pattern>
+			<charset>UTF-8</charset>
 		</encoder>
 		<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
 			<level>DEBUG</level>
